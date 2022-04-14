@@ -31,7 +31,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:9828/filter',
+            url: 'https://still-fjord-57940.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
@@ -42,7 +42,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'GET',
-            url: 'http://localhost:9828/locations',
+            url: 'https://still-fjord-57940.herokuapp.com/Locations',
             headers: { 'Content-Type': 'application/json' }
         })
             .then(response => {
@@ -68,7 +68,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:9828/filter',
+            url: 'https://still-fjord-57940.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
@@ -97,7 +97,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:9828/filter',
+            url: 'https://still-fjord-57940.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
@@ -125,7 +125,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:9828/filter',
+            url: 'https://still-fjord-57940.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
@@ -151,7 +151,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:9828/filter',
+            url: 'https://still-fjord-57940.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
@@ -185,7 +185,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:9828/filter',
+            url: 'https://still-fjord-57940.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
